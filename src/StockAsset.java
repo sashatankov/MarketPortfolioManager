@@ -7,4 +7,14 @@ public class StockAsset implements Asset {
     public double getCurrentPriceInUSD() {
         return 0;
     }
+
+    @Override
+    public double getPurchasePriceInUSD() {
+        return 0;
+    }
+
+    @Override
+    public String getName() {
+        return null;
+    }
 }

@@ -14,4 +14,11 @@ public interface Asset {
      */
     double getPurchasePriceInUSD();
 
+    /**
+     *
+     * @return name of the asset in the 3-letter form or 4-letter form
+     * for example: fot Microsoft - MSFT
+     */
+    String getName();
+
 }
